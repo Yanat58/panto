@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Gilroy-Bold ☞";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy-Bold ☞"), url("Gilroy-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium ☞";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy-Medium ☞"), url("Gilroy-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy-Regular ☞";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy-Regular ☞"), url("Gilroy-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.eot"),
+    url("https://db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.woff")
+      format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400; 
+  src: url('../fonts/Inter-regular.woff') format('woff') 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600; 
+  src: url('../fonts/Inter-600.woff') format('woff')
+}
+
+:root {
+  /* color */
+  --first-accent-color: #f6973f;
+  --secondary-accent-color: #e58411;
+  --text-color: #1e1e1e;
+  --white-color: #fff;
+
+  /* font */
+  --bold-font: "Gilroy-Bold", sans-serif;
+  --medium-font: "Gilroy-Medium";
+  --regular-font: "Gilroy-Regular";
+  --semibold-font: "Gilroy-SemiBold";
+  --inter-400: 'Inter-regular';
+  --inter-600: 'Inter-600';
+
+}
+
+body {
+  font-family: var(--regular-font);
+}
